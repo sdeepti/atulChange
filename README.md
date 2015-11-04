@@ -30,7 +30,7 @@ For Ex. a genome/cDNA FASTA file should have '.fa' extension.<br>
 Please see 'Arguments' section (below) for recommended file extensions.<br>
 <br>
 2.<br>Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa<br>
-Files with such names are deleted sometimes while cleanup operation
+Files with such names are deleted sometimes while cleanup operation<br>
 <br>
 3.<br>All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
 
@@ -49,7 +49,7 @@ Phytozome [http://www.phytozome.net/]<br>
 
 <b>Examples</b><br>
 1. Execution on new genome/entirely new dataset<br>
-This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br><br>
+This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
 
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
 
