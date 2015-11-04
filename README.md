@@ -4,7 +4,7 @@
 <b>sPARTA</b>: small RNA-PARE Target Analyzer Version<br>
 Updated: version-1.11 4/1/2015<br>
 <br>
-<b>Description</b>
+<b>Description</b><br>
 small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
 sPARTA begins with a built-in parallelized target prediction module for plant
@@ -12,8 +12,8 @@ miRNAs called 'miRferno'. sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
 footprint, imperative to achieve a full genome analysis. <br>
 <br>
-<b>Dependencies</b>
-sPARTA requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
+<b>Dependencies</b><br>
+<b>sPARTA</b> requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
 bowtie2 may be downloaded here http://bowtie-bio.sourceforge.net/bowtie2/index.shtml<br>
 
 sPARTA requires the following python3 functions to perform properly:<br>
@@ -23,16 +23,16 @@ rpy2 - http://rpy.sourceforge.net/<br>
 scipy - http://www.scipy.org/<br>
 <br>
 These may easily be installed using (Python) PIP. Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
-<br><br>
+<br>
 <b>Note</b><br>
-1.sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
+1.<br>sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
 For Ex. a genome/cDNA FASTA file should have '.fa' extension.<br>
 Please see 'Arguments' section (below) for recommended file extensions.<br>
 <br>
-2.Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa<br>
+2.<br>Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa<br>
 Files with such names are deleted sometimes while cleanup operation
 <br>
-3.All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
+3.<br>All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
 
 <b>Execution</b><br>
 There are command line arguments that are to be used by sPARTA for proper
@@ -42,44 +42,14 @@ the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.<br>
 
 <b>Arguments</b><br>
-gffFile         GFF3 file for the species being analyzed corresponding
-...             to the genome assembly being used. Recommended file
-                                extension - '.gff' or '.gff3'
-genomeFile      Genome file in FASTA format that will be used to extract
-...             features (genic or intergenic regions) using GFF3 file.
-                                Recommended file extension - '.fa'
-
-featureFile             FASTA file containing sequences of interest (CDS, transcript,
-...             intergenic regions etc.) if user already has a set of
-...             sequences. This option is mutually exclusive to genome file and
-...             gff file. So either genomefile along with gffFile is used or
-...             feature set is supplied directly. Recommended file extension - '.fa'
-
-genomeFeature   0 if prediction is to be done in genic region. 1 if prediction
-...             is to be done in intergenic region
-
-miRNAFile       FASTA format of miRNA sequences. Recommended file extension - '.fa'
-tarPred         Mode of target prediction. H for heuristic. E for exhaustive.
-...             H is default if no mode is specified
-tarScore        Scoring mode for target prediction. S for seedless. N for
-...             normal. S is default if no mode is specified
-
-libs            List of PARE library files in tag count format. Data can be
-...             easily converted into tag count format using *********
-tagLen          Minimum length of PARE tag, tags longer than tagLen will be
-...             chopped to the specified length. 20 is default
---tag2FASTA     Convert tag count file for PARE libraries to FASTA files for
-...             mapping
---map2DD        Map the PARE reads to feature set
---validate      Flag to perform the validation of the potential cleave sites
-...             from miRferno
---repeats       Flag to include PARE reads from repetitive regions
---noiseFilter   Flag to include all PARE validations with p-value of <=.5,
-...             irrespective of the noise to signal ratio at cleave site and
-...             category of PARE read.
-accel           Y to use balanced multiple process scheme or else specify the
-...             number of processors to be used. Y is default
-
+<style type="text/css">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <th>Month</th>
+    <th>Savings</th>
+</tr>
+</table>
+</style>
 <br><br>
 <b>Genome and Annotation Data</b><br>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
