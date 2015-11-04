@@ -42,28 +42,20 @@ the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.<br>
 
 <b>Arguments</b><br>
-<style type="text/css">
-<table cellpadding="0" cellspacing="0" border="0">
-<tr>
-    <th>Month</th>
-    <th>Savings</th>
-</tr>
-</table>
-</style>
-<br><br>
+<br>
 <b>Genome and Annotation Data</b><br>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
-Phytozome [http://www.phytozome.net/]<br><br>
+Phytozome [http://www.phytozome.net/]<br>
 
 <b>Examples</b><br>
 1. Execution on new genome/entirely new dataset<br>
 This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br><br>
 
-python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br><br>
+python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
 
-OR<br><br>
+OR<br>
 
-a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br><br>
+a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
 
@@ -79,9 +71,9 @@ python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --va
 
 4. Execution of 'miRferno', just for target prediction<br>
 This execution should be performed in case only predicted targets are required or PARE libraries are not available:<br>
-python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore<br><br>
+python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore<br>
 
-OR<br><br>
+OR<br>
 
 a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 
