@@ -75,9 +75,9 @@ gff file. So either genomefile along with gffFile is used or
 <tr><td>miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td></tr>
 <tr><td>tarPred</td><td>Mode of target prediction. H for heuristic. E for exhaustive.
  H is default if no mode is specified</td></tr>
-<tr><th>tarScore</th><th>Scoring mode for target prediction. S for seedless. N for
-normal. S is default if no mode is specified</th></tr>
-<tr></td>libs</td><td> List of PARE library files in tag count format. Data can be
+<tr><td>tarScore</td><td>Scoring mode for target prediction. S for seedless. N for
+normal. S is default if no mode is specified</td></tr>
+<tr><td>libs</td><td> List of PARE library files in tag count format. Data can be
  easily converted into tag count format using *********</td></tr>
 <tr><td>tagLen</td>       
 <td> Minimum length of PARE tag, tags longer than tagLen will be
