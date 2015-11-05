@@ -11,7 +11,6 @@ sPARTA begins with a built-in parallelized target prediction module for plant
 miRNAs called 'miRferno'. sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
 footprint, imperative to achieve a full genome analysis. </p><br>
-<br>
 <h2><b>Dependencies</b></h2><br>
 <b>sPARTA</b> requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
 bowtie2 may be downloaded here http://bowtie-bio.sourceforge.net/bowtie2/index.shtml<br>
@@ -35,11 +34,11 @@ Files with such names are deleted sometimes while cleanup operation<br>
 3.All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
 
 <h2><b>Execution</b></h2><br>
-There are command line arguments that are to be used by sPARTA for proper
+<p>There are command line arguments that are to be used by sPARTA for proper
 execution. For the first execution, all steps must be performed, but
 once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
-may be seen below.<br>
+may be seen below.</p><br>
 
 <h2><b>Arguments</b></h2><br>
 <table border=0>
