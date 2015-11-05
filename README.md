@@ -51,18 +51,49 @@ the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
 <table border="0" class="nothing">
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-  </tr>
+<tr>
+<th>gffFile</th>        
+<th>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
+			 	    extension - '.gff' or '.gff3'</th>
+</tr>
+<tr>
+<th>genomeFile</th>      
+</th>Genome file in FASTA format that will be used to extract features (genic or intergenic regions) using GFF3 file.
+				Recommended file extension - '.fa'
+</tr>
+<th>featureFile</th>
+</th>FASTA file containing sequences of interest (CDS, transcript,
+...             intergenic regions etc.) if user already has a set of
+...             sequences. This option is mutually exclusive to genome file and
+...             gff file. So either genomefile along with gffFile is used or
+...             feature set is supplied directly. Recommended file extension - '.fa'</th>
+</tr>
+<tr><th>genomeFeature</th>
+<th>0 if prediction is to be done in genic region. 1 if prediction
+...             is to be done in intergenic region</th>
+</tr>
+
+<tr><th>miRNAFile</th><th> FASTA format of miRNA sequences. Recommended file extension - '.fa'</th>
+<tr><th>tarPred</th><th>Mode of target prediction. H for heuristic. E for exhaustive.
+...             H is default if no mode is specified</th></tr>
+<tr><th>tarScore</th><th>Scoring mode for target prediction. S for seedless. N for
+...             normal. S is default if no mode is specified</th></tr>
+
+<tr></th>libs</th><th> List of PARE library files in tag count format. Data can be
+...             easily converted into tag count format using *********</th></tr>
+<tr><th>tagLen</th>         <th> Minimum length of PARE tag, tags longer than tagLen will be
+...             chopped to the specified length. 20 is default</th></tr>
+<tr><th>--tag2FASTA</th>    <th>Convert tag count file for PARE libraries to FASTA files for
+...             mapping</th></tr>
+<tr><th>--map2DD</th><th> Map the PARE reads to feature set</th>
+<tr><th>--validate</th>      <th>Flag to perform the validation of the potential cleave sites
+...             from miRferno</th></tr>
+<tr><th>--repeats</th>      <th> Flag to include PARE reads from repetitive regions</th></tr>
+<tr><th>--noiseFilter</th>  <th> Flag to include all PARE validations with p-value of <=.5,
+...             irrespective of the noise to signal ratio at cleave site and
+...             category of PARE read.</th></tr>
+<tr><th>accel</th> <th>Y to use balanced multiple process scheme or else specify the
+...             number of processors to be used. Y is default</th></tr>
 </table>
 <br>
 <b>Genome and Annotation Data</b><br>
