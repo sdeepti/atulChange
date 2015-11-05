@@ -1,6 +1,14 @@
 
 <html>
 <body>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+h2{
+    color: blue;
+}
+</style>
+</head>
 <h2><b>sPARTA</b></h2>: small RNA-PARE Target Analyzer Version<br>
 Updated: version-1.11 4/1/2015<br>
 <br>
