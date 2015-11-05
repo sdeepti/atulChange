@@ -44,18 +44,18 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table border=0>
-  <tr border=0>
-    <th border=0>Month</th>
-    <th border=0>Savings</th>
+<table border="0">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
   </tr>
-  <tr border=0>
-    <td border=0>January</td>
-    <td border=0>$100</td>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
   </tr>
-  <tr border=0>
-    <td border=0>February</td>
-    <td border=0>$80</td>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
   </tr>
 </table>
 <br>
