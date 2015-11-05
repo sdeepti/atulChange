@@ -25,14 +25,14 @@ scipy - http://www.scipy.org/<br>
 These may easily be installed using (Python) PIP. Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
 <br>
 <b>Note</b><br>
-1.<br>sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
+1.sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
 For Ex. a genome/cDNA FASTA file should have '.fa' extension.<br>
 Please see 'Arguments' section (below) for recommended file extensions.<br>
 <br>
-2.<br>Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa<br>
+2.Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa<br>
 Files with such names are deleted sometimes while cleanup operation<br>
 <br>
-3.<br>All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
+3.All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
 
 <b>Execution</b><br>
 There are command line arguments that are to be used by sPARTA for proper
@@ -91,10 +91,10 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <b>Contact</b>
 <br>
 Atul Kakrana<br>
-kakrana@udel.edu<br><br>
+kakrana@udel.edu<br>
 
 Reza Hammond<br>
-hammond@dbi.udel.edu<br><br>
+hammond@dbi.udel.edu<br>
 
 <b>END of README</b>
 </body>
