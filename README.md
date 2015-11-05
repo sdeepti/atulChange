@@ -72,8 +72,8 @@ gff file. So either genomefile along with gffFile is used or
 <td>0 if prediction is to be done in genic region. 1 if prediction
 ... is to be done in intergenic region</td>
 </tr>
-<tr><td>miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td>
-<tr><td>tarPred</th><th>Mode of target prediction. H for heuristic. E for exhaustive.
+<tr><td>miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td></tr>
+<tr><td>tarPred</td><td>Mode of target prediction. H for heuristic. E for exhaustive.
  H is default if no mode is specified</td></tr>
 <tr><th>tarScore</th><th>Scoring mode for target prediction. S for seedless. N for
 normal. S is default if no mode is specified</th></tr>
