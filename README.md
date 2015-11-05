@@ -42,7 +42,7 @@ the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.<br>
 
 <h2><b>Arguments</b></h2><br>
-<table>
+<table cellspacing="0" cellpadding="0">
   <tr>
     <th>Month</th>
     <th>Savings</th>
