@@ -1,7 +1,5 @@
 <style>
-table th {
-    border-bottom: none;
-}
+table { border-collapse:collapse }
 </style>
 <html>
 <body>
