@@ -1,9 +1,6 @@
 
 <html>
 <body>
-<style>
-table {border: none;}
-</style>
 <h2><b>sPARTA</b></h2>: small RNA-PARE Target Analyzer Version<br>
 Updated: version-1.11 4/1/2015<br>
 <br>
@@ -45,18 +42,18 @@ the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.<br>
 
 <h2><b>Arguments</b></h2><br>
-<table cellspacing="0" cellpadding="0">
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
+<table border=0>
+  <tr border=0>
+    <th border=0>Month</th>
+    <th border=0>Savings</th>
   </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
+  <tr border=0>
+    <td border=0>January</td>
+    <td border=0>$100</td>
   </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
+  <tr border=0>
+    <td border=0>February</td>
+    <td border=0>$80</td>
   </tr>
 </table>
 <br>
