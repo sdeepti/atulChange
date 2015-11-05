@@ -48,8 +48,8 @@ Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
 
 <b>Examples</b><br>
-1. 
-Execution on new genome/entirely new dataset<br>
+<ol>
+<li>Execution on new genome/entirely new dataset<br>
 This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
 
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
@@ -58,22 +58,19 @@ OR<br>
 
 a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 
-python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
+python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li><br>
 
-2. 
-Execution on genome in which genome has already been processed<br>
+<li>Execution on genome in which genome has already been processed<br>
 This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:<br>
 <br>
-python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
+python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li><br>
 
-3. 
-Execution on data in which genome and miRNA files have been previously processed<br>
+<li>Execution on data in which genome and miRNA files have been previously processed<br>
 This execution should be performed if targets for a genome file have already been predicted using a miRNA file, but new PARE libraries need to be used for validation of earlier predicted targets:<br><br>
 
-python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --validate<br>
+python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --validate</li><br>
 
-4. 
-Execution of 'miRferno', just for target prediction<br>
+<li>Execution of 'miRferno', just for target prediction<br>
 This execution should be performed in case only predicted targets are required or PARE libraries are not available:<br>
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore<br>
 
@@ -81,8 +78,8 @@ OR<br>
 
 a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 
-python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore<br>
-
+python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore</li><br>
+</ol>
 <b>Output</b><br>
 1.  PARE validation results for each library can be found in 'output' folder<br>
     under its corresponding library name. The 'output' folder also contains a combined result file (AllLibValidatedUniq.csv) from all the libraries.<br>
