@@ -42,6 +42,20 @@ the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.<br>
 
 <h2><b>Arguments</b></h2><br>
+<table border="0">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
 <br>
 <b>Genome and Annotation Data</b><br>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
