@@ -1,6 +1,6 @@
 <style>
-h2{
-color:blue
+table th {
+    border-bottom: none;
 }
 </style>
 <html>
