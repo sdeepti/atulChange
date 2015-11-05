@@ -4,7 +4,7 @@
 <h2><b>sPARTA</b></h2>: small RNA-PARE Target Analyzer Version<br>
 Updated: version-1.11 4/1/2015<br>
 <br>
-<b>Description</b><br>
+<h2><b>Description</b></h2><br>
 small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
 sPARTA begins with a built-in parallelized target prediction module for plant
@@ -12,7 +12,7 @@ miRNAs called 'miRferno'. sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
 footprint, imperative to achieve a full genome analysis. <br>
 <br>
-<b>Dependencies</b><br>
+<h2><b>Dependencies</b></h2><br>
 <b>sPARTA</b> requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
 bowtie2 may be downloaded here http://bowtie-bio.sourceforge.net/bowtie2/index.shtml<br>
 
@@ -24,7 +24,7 @@ scipy - http://www.scipy.org/<br>
 <br>
 These may easily be installed using (Python) PIP. Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
 <br>
-<b>Note</b><br>
+<h2><b>Note</b></h2><br>
 1.sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
 For Ex. a genome/cDNA FASTA file should have '.fa' extension.<br>
 Please see 'Arguments' section (below) for recommended file extensions.<br>
@@ -34,20 +34,20 @@ Files with such names are deleted sometimes while cleanup operation<br>
 <br>
 3.All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script<br><br>
 
-<b>Execution</b><br>
+<h2><b>Execution</b></h2><br>
 There are command line arguments that are to be used by sPARTA for proper
 execution. For the first execution, all steps must be performed, but
 once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.<br>
 
-<b>Arguments</b><br>
+<h2><b>Arguments</b></h2><br>
 <br>
 <b>Genome and Annotation Data</b><br>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
 
-<b>Examples</b><br>
+<h2><b>Examples</b></h2><br>
 <ol>
 <li>Execution on new genome/entirely new dataset<br>
 This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
@@ -80,7 +80,7 @@ a user provided feature set (FASTA file with sequences of interest) is being ana
 
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore</li><br>
 </ol>
-<b>Output</b><br>
+<h2><b>Output</b></h2><br>
 1.  PARE validation results for each library can be found in 'output' folder<br>
     under its corresponding library name. The 'output' folder also contains a combined result file (AllLibValidatedUniq.csv) from all the libraries.<br>
     Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.<br>
@@ -88,7 +88,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 2.  Target prediction results can be found in 'predicted' folder under the name<br>
     'All.targs.parsed.csv'<br>
 
-<b>Contact</b>
+<h2><b>Contact</b></h2>
 <br>
 Atul Kakrana<br>
 kakrana@udel.edu<br>
