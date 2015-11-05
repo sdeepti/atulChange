@@ -33,14 +33,12 @@ Files with such names are deleted sometimes while cleanup operation</li><br>
 <br>
 <li>All the input files 1) miRNAs 2) FASTA file for genome or transcripts and 3) degradome/PARE in tag-count format should be in same directory,including sPARTA script</li>
 </ol><br>
-
-<h2><b>Execution</b></h2><br>
+<h2><b>Execution</b></h2>
 <p>There are command line arguments that are to be used by sPARTA for proper
 execution. For the first execution, all steps must be performed, but
 once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
-may be seen below.</p><br>
-
+may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
 <table border=0>
   <tr border=0>
@@ -94,19 +92,19 @@ a user provided feature set (FASTA file with sequences of interest) is being ana
 
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore</li><br>
 </ol>
-<h2><b>Output</b></h2><br>
-1.  <p>PARE validation results for each library can be found in 'output' folder<br>
+<h2><b>Output</b></h2>
+<ol>
+<li><p>PARE validation results for each library can be found in 'output' folder<br>
     under its corresponding library name. The 'output' folder also contains a combined result file (AllLibValidatedUniq.csv) from all the libraries.<br>
-    Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.</p><br>
+    Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.</p></li>
 <br>
-2. <p> Target prediction results can be found in 'predicted' folder under the name<br>
-    'All.targs.parsed.csv'</p><br>
+<li><p>Target prediction results can be found in 'predicted' folder under the name<br>
+'All.targs.parsed.csv'</p></li>
+</ol>
 
 <h2><b>Contact</b></h2>
-<br>
 Atul Kakrana<br>
 kakrana@udel.edu<br>
-
 Reza Hammond<br>
 hammond@dbi.udel.edu<br>
 
