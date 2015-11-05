@@ -1,7 +1,7 @@
 
 <html>
 <body>
-<b>sPARTA</b>: small RNA-PARE Target Analyzer Version<br>
+<b>####sPARTA</b>: small RNA-PARE Target Analyzer Version<br>
 Updated: version-1.11 4/1/2015<br>
 <br>
 <b>Description</b><br>
