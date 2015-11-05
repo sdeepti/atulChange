@@ -1,5 +1,13 @@
 <style>
-table { border-collapse:collapse }
+.nothing
+{
+   border-collapse:collapse;
+} 
+.nothing td
+{
+   border:none;
+   outline:none;
+}
 </style>
 <html>
 <body>
@@ -42,7 +50,7 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table border="0">
+<table border="0" class="nothing">
   <tr>
     <th>Month</th>
     <th>Savings</th>
