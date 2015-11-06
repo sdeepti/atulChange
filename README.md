@@ -2,10 +2,14 @@
 <body>
 <link rel="stylesheet" href="github-markdown.css">
 <style>
- h2 {
-   color:blue;
+    .markdown-body {
+        color:blue;
     }
 </style>
+<article class="markdown-body">
+    <h1>Unicorns</h1>
+    <p>All the things</p>
+</article>
 <h2>sPARTA<span>:small RNA-PARE Target Analyzer Version</span></h2>
 <br>
 Updated: version-1.11 4/1/2015<br>
