@@ -1,5 +1,10 @@
 <html>
 <body>
+<head>
+<style>
+h2 {color:red;}
+</style>
+</head>
 <h2>sPARTA<span>:small RNA-PARE Target Analyzer Version</span></h2>
 <br>
 Updated: version-1.11 4/1/2015<br>
