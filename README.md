@@ -1,17 +1,6 @@
-<style>
-.nothing
-{
-   border-collapse:collapse;
-} 
-.nothing td
-{
-   border:none;
-   outline:none;
-}
-</style>
 <html>
 <body>
-<h2><b>sPARTA</b></h2>: small RNA-PARE Target Analyzer Version<br>
+<b><font size="6">sPARTA</b>: small RNA-PARE Target Analyzer Version<br>
 Updated: version-1.11 4/1/2015<br>
 <br>
 <h2><b>Description</b></h2><br>
