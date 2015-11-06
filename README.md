@@ -52,32 +52,32 @@ may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
 <table border="0" class="nothing">
 <tr>
-<td>gffFile</td>        
+<td>-gffFile</td>        
 <td>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
  extension - '.gff' or '.gff3'</td>
 </tr>
 <tr>
-<td>genomeFile</td>      
+<td>-genomeFile</td>      
 <td>Genome file in FASTA format that will be used to extract features (genic or intergenic regions) using GFF3 file.
 Recommended file extension - '.fa'</td>
 </tr>
-<td>featureFile</td>
+<td>-featureFile</td>
 <td>FASTA file containing sequences of interest (CDS, transcript,
  intergenic regions etc.) if user already has a set of
  sequences. This option is mutually exclusive to genome file and
 gff file. So either genomefile along with gffFile is used or
  feature set is supplied directly. Recommended file extension - '.fa'</td>
 </tr>
-<tr><td>genomeFeature</td>
+<tr><td>-genomeFeature</td>
 <td>0 if prediction is to be done in genic region. 1 if prediction
 ... is to be done in intergenic region</td>
 </tr>
-<tr><td>miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td></tr>
-<tr><td>tarPred</td><td>Mode of target prediction. H for heuristic. E for exhaustive.
+<tr><td>-miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td></tr>
+<tr><td>-tarPred</td><td>Mode of target prediction. H for heuristic. E for exhaustive.
  H is default if no mode is specified</td></tr>
 <tr><td>-tarScore</td><td>Scoring mode for target prediction. S for seedless. N for
 normal. S is default if no mode is specified</td></tr>
-<tr><td>libs</td><td> List of PARE library files in tag count format. Data can be
+<tr><td>-libs</td><td> List of PARE library files in tag count format. Data can be
  easily converted into tag count format using *********</td></tr>
 <tr><td>-tagLen</td>       
 <td> Minimum length of PARE tag, tags longer than tagLen will be
@@ -96,7 +96,7 @@ mapping</td></tr>
 <td> Flag to include all PARE validations with p-value of <=.5,
 ...             irrespective of the noise to signal ratio at cleave site and
 ...             category of PARE read.</td></tr>
-<tr><td>accel</td> 
+<tr><td>-accel</td> 
 <td>Y to use balanced multiple process scheme or else specify the
 ...             number of processors to be used. Y is default</td></tr>
 </table>
