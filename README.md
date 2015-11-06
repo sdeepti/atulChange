@@ -50,56 +50,9 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table border="0" class="nothing">
-<tr>
-<td>-gffFile</td>        
-<td>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
- extension - '.gff' or '.gff3'</td>
-</tr>
-<tr>
-<td>-genomeFile</td>      
-<td>Genome file in FASTA format that will be used to extract features (genic or intergenic regions) using GFF3 file.
-Recommended file extension - '.fa'</td>
-</tr>
-<td>-featureFile</td>
-<td>FASTA file containing sequences of interest (CDS, transcript,
- intergenic regions etc.) if user already has a set of
- sequences. This option is mutually exclusive to genome file and
-gff file. So either genomefile along with gffFile is used or
- feature set is supplied directly. Recommended file extension - '.fa'</td>
-</tr>
-<tr><td>-genomeFeature</td>
-<td>0 if prediction is to be done in genic region. 1 if prediction
-... is to be done in intergenic region</td>
-</tr>
-<tr><td>-miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td></tr>
-<tr><td>-tarPred</td><td>Mode of target prediction. H for heuristic. E for exhaustive.
- H is default if no mode is specified</td></tr>
-<tr><td>-tarScore</td><td>Scoring mode for target prediction. S for seedless. N for
-normal. S is default if no mode is specified</td></tr>
-<tr><td>-libs</td><td> List of PARE library files in tag count format. Data can be
- easily converted into tag count format using *********</td></tr>
-<tr><td>-tagLen</td>       
-<td> Minimum length of PARE tag, tags longer than tagLen will be
-chopped to the specified length. 20 is default</td></tr>
-<tr><td>--tag2FASTA</td>  
-<td>Convert tag count file for PARE libraries to FASTA files for
-mapping</td></tr>
-<tr><td>--map2DD</td>
-<td> Map the PARE reads to feature set</td>
-<tr><td>--validate</td> 
-<td>Flag to perform the validation of the potential cleave sites
- from miRferno</td></tr>
-<tr><td>--repeats</td>      
-<td> Flag to include PARE reads from repetitive regions</th></td></tr>
-<tr><td>--noiseFilter</td>
-<td> Flag to include all PARE validations with p-value of <=.5,
-...             irrespective of the noise to signal ratio at cleave site and
-...             category of PARE read.</td></tr>
-<tr><td>-accel</td> 
-<td>Y to use balanced multiple process scheme or else specify the
-...             number of processors to be used. Y is default</td></tr>
-</table>
+gff file&nbsp;&nbsp;GFF3 file for the species being analyzed corresponding<br/>
+...&nbsp;&nbsp;&nbsp; to the genome assembly being used. Recommended file<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;extension - '.gff' or '.gff3' 
 <br>
 <b>Genome and Annotation Data</b><br>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
