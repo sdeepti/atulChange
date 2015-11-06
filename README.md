@@ -1,10 +1,11 @@
 <html>
 <body>
-<head>
+<link rel="stylesheet" href="github-markdown.css">
 <style>
-h2 {color:red;}
+ h2 {
+   color:blue;
+    }
 </style>
-</head>
 <h2>sPARTA<span>:small RNA-PARE Target Analyzer Version</span></h2>
 <br>
 Updated: version-1.11 4/1/2015<br>
