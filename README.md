@@ -1,11 +1,9 @@
 <html>
 <body>
 <br>
-<font size="35">This is some text!</font>
-
-<br>
-Updated: version-1.11 4/1/2015<br>
-<br>
+<h2>sPARTA</h2>
+sPARTA: small RNA-PARE Target Analyzer Version 
+Updated: version-1.11 4/1/2015
 <h2><b>Description</b></h2>
 <p>small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
