@@ -22,7 +22,6 @@ rpy2 - http://rpy.sourceforge.net/<br>
 scipy - http://www.scipy.org/<br>
 <br>
 These may easily be installed using (Python) PIP. Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
-<br>
 <h2><b>Note</b></h2>
 <ol>
 <li>sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
