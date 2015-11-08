@@ -93,7 +93,7 @@ mapping</td></tr>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
 
-<h2><b>Examples</b></h2><br>
+<h2><b>Examples</b></h2>
 <ol>
 <li>Execution on new genome/entirely new dataset<br>
 This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
