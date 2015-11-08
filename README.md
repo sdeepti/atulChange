@@ -1,7 +1,8 @@
 <html>
 <body>
 <br>
-<b><font size="35">sPARTA</font></b>
+<font size="35">This is some text!</font>
+
 <br>
 Updated: version-1.11 4/1/2015<br>
 <br>
