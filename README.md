@@ -89,7 +89,7 @@ mapping</td></tr>
 ...             number of processors to be used. Y is default</td></tr>
 </table>
 <br>
-<b>Genome and Annotation Data</b><br>
+<h2><b>Genome and Annotation Data</b></h2><br>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
 
