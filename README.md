@@ -4,13 +4,13 @@
 <br>
 Updated: version-1.11 4/1/2015<br>
 <br>
-<h2><b>Description</b></h2><br>
+<h2><b>Description</b></h2>
 <p>small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
 sPARTA begins with a built-in parallelized target prediction module for plant
 miRNAs called 'miRferno'. sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
-footprint, imperative to achieve a full genome analysis. </p><br>
+footprint, imperative to achieve a full genome analysis. </p>
 <h2><b>Dependencies</b></h2><br>
 <b>sPARTA</b> requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
 bowtie2 may be downloaded here http://bowtie-bio.sourceforge.net/bowtie2/index.shtml<br>
@@ -23,7 +23,7 @@ scipy - http://www.scipy.org/<br>
 <br>
 These may easily be installed using (Python) PIP. Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
 <br>
-<h2><b>Note</b></h2><br>
+<h2><b>Note</b></h2>
 <ol>
 <li>sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
 For Ex. a genome/cDNA FASTA file should have '.fa' extension.<br>
