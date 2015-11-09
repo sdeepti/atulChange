@@ -102,10 +102,7 @@ Phytozome [http://www.phytozome.net/]<br>
 </body>
 </html>
 1.Execution on new genome/entirely new dataset
-This execution should be performed any time a new genome file (along with corresponding `GFF` file) is being analyzed:</body></html>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</body>
-</html>
+This execution should be performed any time a new genome file (along with corresponding `GFF` file) is being analyzed:
 ```
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
 ```
@@ -121,24 +118,14 @@ python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature
 ```
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
 ```
-<html>
-<body>
-<ol start="2">
-<li>Execution on genome in which genome has already been processed<br>
+2. Execution on genome in which genome has already been processed<br>
 This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:
-</ol>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</body>
-</html>
 ```
 python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li>
 ```
-<html>
-<body>
-<ol start="3">
-<li>Execution on data in which genome and miRNA files have been previously processed<br>
-This execution should be performed if targets for a genome file have already been predicted using a miRNA file, but new PARE libraries need to be used for validation of earlier predicted targets:</li>
-</ol>
+3.Execution on data in which genome and miRNA files have been previously processed
+This execution should be performed if targets for a genome file have already been predicted using a miRNA file, but new PARE libraries need to be used for validation of earlier predicted targets:
+
 &nbsp;&nbsp;&nbsp;
 </body>
 </html>
