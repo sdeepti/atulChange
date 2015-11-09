@@ -116,7 +116,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <body>
 <ol start="2">
 <li>Execution on genome in which genome has already been processed<br>
-This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:</li><br>
+This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:</li>
 </ol>
 &nbsp;&nbsp;&nbsp;
 </body>
@@ -139,7 +139,7 @@ python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --va
 <html>
 <body>
 <ol start="4"><li>Execution of 'miRferno', just for target prediction<br>
-This execution should be performed in case only predicted targets are required or PARE libraries are not available:</li><br>
+This execution should be performed in case only predicted targets are required or PARE libraries are not available:</li>
 </ol>
 &nbsp;&nbsp;&nbsp;
 </body>
