@@ -7,7 +7,7 @@ Updated: version-1.11 4/1/2015
 small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
 sPARTA begins with a built-in parallelized target prediction module for plant
-miRNAs called</body></html> `miRferno`.<html><body>sPARTA as a whole utilizes multi-core servers to
+miRNAs called</body></html> `miRferno`. <html><body>sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
 footprint, imperative to achieve a full genome analysis. 
 <h2><b>Dependencies</b></h2>
@@ -22,7 +22,7 @@ sPARTA requires the following python3 functions to perform properly:<br></body><
 `rpy2` - <html><body>http://rpy.sourceforge.net/<br></body></html>
 `scipy` - <html><body>http://www.scipy.org/<br>
 <br>
-These may easily be installed using (Python) </body></html>`PIP`. <html><body>Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
+These may easily be installed using (Python) </body></html>`PIP`. <html><body>Intructions to install</body></html>`PIP` -<html><body> https://pip.pypa.io/en/stable/installing.html<br>
 <h2><b>Note</b></h2>
 </body>
 </html>
@@ -63,7 +63,7 @@ gff file. So either genomefile along with gffFile is used or
 </tr>
 <tr><td width="180">-genomeFeature</td>
 <td>0 if prediction is to be done in genic region. 1 if prediction
-... is to be done in intergenic region</td>
+ is to be done in intergenic region</td>
 </tr>
 <tr><td>-miRNAFile</td><td> FASTA format of miRNA sequences. Recommended file extension - '.fa'</td></tr>
 <tr><td>-tarPred</td><td>Mode of target prediction. H for heuristic. E for exhaustive.
@@ -77,7 +77,7 @@ normal. S is default if no mode is specified</td></tr>
 chopped to the specified length. 20 is default</td></tr>
 <tr><td>-accel</td> 
 <td>Y to use balanced multiple process scheme or else specify the
-...             number of processors to be used. Y is default</td></tr>
+             number of processors to be used. Y is default</td></tr>
 <tr><td>--tag2FASTA</td>  
 <td>Convert tag count file for PARE libraries to FASTA files for
 mapping</td></tr>
@@ -90,8 +90,8 @@ mapping</td></tr>
 <td> Flag to include PARE reads from repetitive regions</th></td></tr>
 <tr><td>--noiseFilter</td>
 <td> Flag to include all PARE validations with p-value of <=.5,
-...             irrespective of the noise to signal ratio at cleave site and
-...             category of PARE read.</td></tr>
+             irrespective of the noise to signal ratio at cleave site and
+         category of PARE read.</td></tr>
 </table>
 <br>
 <h2><b>Genome and Annotation Data</b></h2>
