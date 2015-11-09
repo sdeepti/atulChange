@@ -132,7 +132,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
     under its corresponding library name. The 'output' folder also contains a combined result file (AllLibValidatedUniq.csv) from all the libraries.<br>
     Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.</p></li>
 <li><p>Target prediction results can be found in 'predicted' folder under the name<br>
-'All.targs.parsed.csv'</p></li>
+`All.targs.parsed.csv`</p></li>
 </ol>
 
 <h2><b>Contact</b></h2>
