@@ -1,13 +1,13 @@
 <html>
 <body>
 <h2>sPARTA</h2>
-<b>s</b>mall RNA-<b>PA</b>RE <b>T</b>arget <b>A</b>nalyzer Version<br> 
+<b>s</b>mall RNA-<b>PA</b>RE <b>T</b>arget <b>A</b>nalyzer<br> 
 Updated: version-1.11 4/1/2015
 <h2><b>Description</b></h2>
 <p>small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
 sPARTA begins with a built-in parallelized target prediction module for plant
-miRNAs called 'miRferno'. sPARTA as a whole utilizes multi-core servers to
+miRNAs called</body></html> `miRferno`.<html><body>sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
 footprint, imperative to achieve a full genome analysis. </p>
 <h2><b>Dependencies</b></h2>
@@ -40,7 +40,7 @@ Files with such names are deleted sometimes while cleanup operation
 <p>There are command line arguments that are to be used by sPARTA for proper
 execution. For the first execution, all steps must be performed, but
 once this has been completed, provided the miRNAs and genome are the same,
-the entire analysis will not need to be repeated. Examples of such cases
+the entire analysis will not need to be repeated.  <a href="https://github.com/sdeepti/atulChange/blob/master/README.md#examples">Examples</a> of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
 <table width="400">
@@ -172,8 +172,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <h2><b>Output</b></h2>
 </body>
 </html>
-1.PARE validation results for each library can be found in `output` folder under its corresponding library name. The `output` folder also contains a combined result file (`AllLibValidatedUniq.csv`) from all the libraries.<html><body>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</body></html>
+1.PARE validation results for each library can be found in `output` folder under its corresponding library name. The `output` folder also contains a combined result file (`AllLibValidatedUniq.csv`) from all the libraries.
 Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.
 
 2.Target prediction results can be found in 'predicted' folder under the name
