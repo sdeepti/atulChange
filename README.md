@@ -71,7 +71,7 @@ gff file. So either genomefile along with gffFile is used or
 <tr><td>-tarScore</td><td>Scoring mode for target prediction. S for seedless. N for
 normal. S is default if no mode is specified</td></tr>
 <tr><td>-libs</td><td> List of PARE library files in tag count format. Data can be
- easily converted into tag count format using <a href="http://www.ebi.ac.uk/~stijn/reaper/tally.html">tally</a></td></tr>
+ easily converted into tag count format using <a href="http://www.ebi.ac.uk/~stijn/reaper/tally.html" target="_blank">tally</a></td></tr>
 <tr><td>-tagLen</td>       
 <td> Minimum length of PARE tag, tags longer than tagLen will be
 chopped to the specified length. 20 is default</td></tr>
@@ -121,7 +121,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 2.Execution on genome in which genome has already been processed
 This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:
 ```
-python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li>
+python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
 ```
 3.Execution on data in which genome and miRNA files have been previously processed
 This execution should be performed if targets for a genome file have already been predicted using a miRNA file, but new PARE libraries need to be used for validation of earlier predicted targets:
