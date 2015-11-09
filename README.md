@@ -100,7 +100,7 @@ Phytozome [http://www.phytozome.net/]<br>
 This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
 `
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
-`
+
 OR
 
 a user provided feature set (FASTA file with sequences of interest) is being analyzed:
