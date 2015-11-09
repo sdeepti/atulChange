@@ -1,7 +1,7 @@
 <html>
 <body>
 <h2>sPARTA</h2>
-sPARTA: small RNA-PARE Target Analyzer Version<br> 
+<b>s</b>mall RNA-<b>PA</b>RE <b>T</b>arget <b>A</b>nalyzer Version<br> 
 Updated: version-1.11 4/1/2015
 <h2><b>Description</b></h2>
 <p>small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
