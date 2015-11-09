@@ -43,7 +43,7 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table border="0" >
+<table border="0" width="200">
 <tr>
 <td>-gffFile</td>        
 <td>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
