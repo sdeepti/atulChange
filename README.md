@@ -1,4 +1,4 @@
-<html>
+```html
 <body>
 <h2>sPARTA</h2>
 sPARTA: small RNA-PARE Target Analyzer Version<br> 
@@ -96,11 +96,7 @@ Phytozome [http://www.phytozome.net/]<br>
 <ol>
 <li>Execution on new genome/entirely new dataset<br>
 This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
-```
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
-```
-
-
 
 OR<br>
 
@@ -145,4 +141,4 @@ hammond@dbi.udel.edu<br>
 
 <b>END of README</b>
 </body>
-</html>
+```
