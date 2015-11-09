@@ -75,6 +75,9 @@ normal. S is default if no mode is specified</td></tr>
 <tr><td>-tagLen</td>       
 <td> Minimum length of PARE tag, tags longer than tagLen will be
 chopped to the specified length. 20 is default</td></tr>
+<tr><td>-accel</td> 
+<td>Y to use balanced multiple process scheme or else specify the
+...             number of processors to be used. Y is default</td></tr>
 <tr><td>--tag2FASTA</td>  
 <td>Convert tag count file for PARE libraries to FASTA files for
 mapping</td></tr>
@@ -89,9 +92,6 @@ mapping</td></tr>
 <td> Flag to include all PARE validations with p-value of <=.5,
 ...             irrespective of the noise to signal ratio at cleave site and
 ...             category of PARE read.</td></tr>
-<tr><td>-accel</td> 
-<td>Y to use balanced multiple process scheme or else specify the
-...             number of processors to be used. Y is default</td></tr>
 </table>
 <br>
 <h2><b>Genome and Annotation Data</b></h2>
@@ -140,7 +140,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <h2><b>Output</b></h2>
 </body>
 </html>
-1.PARE validation results for each library can be found in `output` folder under its corresponding library name. The `output` folder also contains a combined result file (`AllLibValidatedUniq.csv`) from all the libraries.
+1.PARE validation results for each library can be found in `output` folder under its corresponding library name. The `output` folder also contains a combined result file `AllLibValidatedUniq.csv` from all the libraries.
 Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.
 
 2.Target prediction results can be found in 'predicted' folder under the name
@@ -153,7 +153,6 @@ kakrana@udel.edu<br>
 Reza Hammond<br>
 hammond@dbi.udel.edu<br>
 
-<b>END of README</b>
 </body>
 </html>
 
