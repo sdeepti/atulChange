@@ -61,7 +61,7 @@ Recommended file extension - '.fa'</td>
 gff file. So either genomefile along with gffFile is used or
  feature set is supplied directly. Recommended file extension - '.fa'</td>
 </tr>
-<tr><td width="250">-genomeFeature</td>
+<tr><td width="180">-genomeFeature</td>
 <td>0 if prediction is to be done in genic region. 1 if prediction
 ... is to be done in intergenic region</td>
 </tr>
