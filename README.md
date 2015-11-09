@@ -95,7 +95,7 @@ Phytozome [http://www.phytozome.net/]<br>
 <h2><b>Examples</b></h2>
 <ol start = "1">
 <li>Execution on new genome/entirely new dataset<br>
-This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br></li>
+This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:</li>
 </ol>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </html>
@@ -108,7 +108,7 @@ python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </body>
 </html>
@@ -155,7 +155,7 @@ python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:&nbsp;&nbsp;&nbsp;
 </body>
 </html>
 `
