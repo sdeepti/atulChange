@@ -1,4 +1,4 @@
-```html
+<html>
 <body>
 <h2>sPARTA</h2>
 sPARTA: small RNA-PARE Target Analyzer Version<br> 
@@ -91,20 +91,12 @@ mapping</td></tr>
 <h2><b>Genome and Annotation Data</b></h2>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
+</body>
+</html>
 
-<h2><b>Examples</b></h2>
-<ol>
-<li>Execution on new genome/entirely new dataset<br>
-This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
 ```
-python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
-```
-OR<br>
-
-a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
-
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li><br>
-
+```
 <li>Execution on genome in which genome has already been processed<br>
 This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:<br>
 <br>
@@ -142,4 +134,4 @@ hammond@dbi.udel.edu<br>
 
 <b>END of README</b>
 </body>
-```
+</html>
