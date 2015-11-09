@@ -95,7 +95,9 @@ Phytozome [http://www.phytozome.net/]<br>
 <h2><b>Examples</b></h2>
 <ol start = "1">
 <li>Execution on new genome/entirely new dataset<br>
-This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:</li></ol>
+This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:
+</li>
+</ol>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </body>
 </html>
