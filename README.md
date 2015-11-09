@@ -93,52 +93,56 @@ Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
 
 <h2><b>Examples</b></h2>
-</html>
-</body>
-
-1. Execution on new genome/entirely new dataset<br>
-This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
+<ol start = "1">
+<li>Execution on new genome/entirely new dataset<br>
+This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br></li>
+</ol>
 `
-python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
+python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate<br>
 `
 <html>
 <body>
-&nbsp;&nbsp;&nbsp;&nbsp;OR
+
+&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 </body>
 </html>
 `
-python3 sPARTA.py -featureFile -genomeFeature <0/1> -miRNAFile -libs -tarPred -tarScore --tag2FASTA --map2DD --validate
+python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li><br>
 `
-2. Execution on genome in which genome has already been processed
-This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:
-
+<html>
+<body>
+<ol start="2">
+<li>Execution on genome in which genome has already been processed<br>
+This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:</li><br>
+</ol>
+</body>
+</html>
 `
-python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
+python3 sPARTA.py -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li><br>
 `
-
-3. Execution on data in which genome and miRNA files have been previously processed
-This execution should be performed if targets for a genome file have already been predicted using a miRNA file, but new PARE libraries need to be used for validation of earlier predicted targets:
+<html>
+<body>
+<ol start="3">
+<li>Execution on data in which genome and miRNA files have been previously processed<br>
+This execution should be performed if targets for a genome file have already been predicted using a miRNA file, but new PARE libraries need to be used for validation of earlier predicted targets:</li><br><br>
+</ol>
+</body>
+</html>
 `
-python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --validate
+python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --validate<br>
 `
-4. Execution of 'miRferno', just for target prediction
+<li>Execution of 'miRferno', just for target prediction<br>
 This execution should be performed in case only predicted targets are required or PARE libraries are not available:<br>
-`
-python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
-<html>
-<body>
-&nbsp;&nbsp;&nbsp;&nbsp;OR
+python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
-</body>
-</html>
-`
-python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
-`
-<html>
-<boody>
+OR<br>
+
+a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
+
+python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore</li>
+</ol>
 <h2><b>Output</b></h2>
 <ol>
 <li><p>PARE validation results for each library can be found in 'output' folder<br>
@@ -157,3 +161,5 @@ hammond@dbi.udel.edu<br>
 <b>END of README</b>
 </body>
 </html>
+
+
