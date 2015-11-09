@@ -43,7 +43,7 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated.  <a href="https://github.com/sdeepti/atulChange/blob/master/README.md#examples">Examples</a> of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table width="400">
+<table>
 <tr>
 <td>-gffFile</td>        
 <td>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
@@ -61,7 +61,7 @@ Recommended file extension - '.fa'</td>
 gff file. So either genomefile along with gffFile is used or
  feature set is supplied directly. Recommended file extension - '.fa'</td>
 </tr>
-<tr><td>-genomeFeature</td>
+<tr><td width="250">-genomeFeature</td>
 <td>0 if prediction is to be done in genic region. 1 if prediction
 ... is to be done in intergenic region</td>
 </tr>
@@ -130,6 +130,7 @@ This execution should be performed in case only predicted targets are required o
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
 ```
 OR
+
 a user provided feature set (FASTA file with sequences of interest) is being analyzed:
 ```
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
