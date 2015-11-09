@@ -136,9 +136,9 @@ This execution should be performed if targets for a genome file have already bee
 &nbsp;&nbsp;&nbsp;
 </body>
 </html>
-`
+```
 python3 sPARTA.py -genomeFeature <0/1> -libs <Lib_C.txt Lib_D.txt> --map2DD --validate<br>
-`
+```
 <html>
 <body>
 <ol start="4"><li>Execution of 'miRferno', just for target prediction<br>
@@ -147,9 +147,9 @@ This execution should be performed in case only predicted targets are required o
 &nbsp;&nbsp;&nbsp;
 </body>
 </html>
-`
+```
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
-`
+```
 <html>
 <body>
 
