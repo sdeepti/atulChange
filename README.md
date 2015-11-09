@@ -43,7 +43,7 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table width="300">
+<table width="400">
 <tr>
 <td>-gffFile</td>        
 <td>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
@@ -99,10 +99,10 @@ Both the </body></html>`GFF3` file and corresponding genome `FASTA` <html><body>
 Phytozome [http://www.phytozome.net/]<br>
 
 <h2><b>Examples</b></h2>
-<ol start = "1">
-<li>Execution on new genome/entirely new dataset<br>
-This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:</li>
-</ol>
+</body>
+</html>
+1.Execution on new genome/entirely new dataset
+This execution should be performed any time a new genome file (along with corresponding `GFF` file) is being analyzed:</body></html>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </body>
 </html>
@@ -170,13 +170,14 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <html>
 <body>
 <h2><b>Output</b></h2>
-<ol>
-<li><p>PARE validation results for each library can be found in output folder<br>
-    under its corresponding library name.</li></body></html> The output folder also contains a combined result file (`AllLibValidatedUniq.csv`) from all the libraries.<html><body><br>
-    Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.</p>
-<li><p>Target prediction results can be found in 'predicted' folder under the name<br></p></li></ol>
+</body>
+</html>
+1.PARE validation results for each library can be found in output folder under its corresponding library name. The output folder also contains a combined result file (`AllLibValidatedUniq.csv`) from all the libraries.
+Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.
+2.Target prediction results can be found in 'predicted' folder under the name
 `All.targs.parsed.csv`
-
+<html>
+<body>
 <h2><b>Contact</b></h2>
 Atul Kakrana<br>
 kakrana@udel.edu<br>
