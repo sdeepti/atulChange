@@ -24,14 +24,16 @@ sPARTA requires the following python3 functions to perform properly:<br></body><
 <br>
 These may easily be installed using (Python) </body></html>`PIP`. <html><body>Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
 <h2><b>Note</b></h2>
-<ol>
-<li>sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.<br>
-For Ex. a genome/cDNA FASTA file should have `.fa` extension.<br>
-Please see 'Arguments' section (below) for recommended file extensions.</li><br>
-<li>Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa<br>
-Files with such names are deleted sometimes while cleanup operation</li><br>
-<li>All the input files 1) </body></html>`miRNAs` 2)`FASTA` file for genome or transcripts and 3) `degradome/PARE` in tag-count format should be in same directory, including sPARTA script</li>
-</ol>
+</body>
+</html>
+1.sPARTA uses file extensions to identify file types, naming meta-data and selectively cleaning up temp files. Therefore, it is recommended to have appropriate file extensions.
+For Ex. a genome/cDNA FASTA file should have `.fa` extension.
+Please see 'Arguments' section (below) for recommended file extensions.
+2.Make sure that input fasta files do not have integers in name. For ex - test.1.fa or arabidopsis.new.2.4.fa
+Files with such names are deleted sometimes while cleanup operation
+3.All the input files 1) </body></html>`miRNAs` 2)`FASTA` file for genome or transcripts and 3) `degradome/PARE` in tag-count format should be in same directory, including sPARTA script
+<html>
+</body>
 <h2><b>Execution</b></h2>
 <p>There are command line arguments that are to be used by sPARTA for proper
 execution. For the first execution, all steps must be performed, but
