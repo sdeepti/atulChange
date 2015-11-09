@@ -103,9 +103,9 @@ python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature
 <html>
 <body>
 
-&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 </body>
 </html>
 `
@@ -146,9 +146,9 @@ python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature
 <html>
 <body>
 
-&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:<br>
 </body>
 </html>
 `
