@@ -129,12 +129,8 @@ This execution should be performed in case only predicted targets are required o
 ```
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
 ```
-<html>
-<body>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a user provided feature set (FASTA file with sequences of interest) is being analyzed:&nbsp;&nbsp;&nbsp;&nbsp;
+OR
+a user provided feature set (FASTA file with sequences of interest) is being analyzed:
 ```
 python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -tarPred -tarScore
 ```
