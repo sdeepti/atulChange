@@ -67,7 +67,7 @@ gff file. So either genomefile along with gffFile is used or
 <tr><td>-tarScore</td><td>Scoring mode for target prediction. S for seedless. N for
 normal. S is default if no mode is specified</td></tr>
 <tr><td>-libs</td><td> List of PARE library files in tag count format. Data can be
- easily converted into tag count format using *********</td></tr>
+ easily converted into tag count format using <a href="http://www.ebi.ac.uk/~stijn/reaper/tally.html">tally</a></td></tr>
 <tr><td>-tagLen</td>       
 <td> Minimum length of PARE tag, tags longer than tagLen will be
 chopped to the specified length. 20 is default</td></tr>
@@ -121,7 +121,7 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <body>
 <ol start="2">
 <li>Execution on genome in which genome has already been processed<br>
-This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:</li>
+This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:
 </ol>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </body>
