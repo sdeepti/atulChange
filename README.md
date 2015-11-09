@@ -4,12 +4,12 @@
 <b>s</b>mall RNA-<b>PA</b>RE <b>T</b>arget <b>A</b>nalyzer<br> 
 Updated: version-1.11 4/1/2015
 <h2><b>Description</b></h2>
-<p>small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
+small RNA-PARE Target Analyzer (sPARTA) is a tool which utilizes
 high-throughput sequencing to profile genome-wide cleavage products.
 sPARTA begins with a built-in parallelized target prediction module for plant
 miRNAs called</body></html> `miRferno`.<html><body>sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
-footprint, imperative to achieve a full genome analysis. </p>
+footprint, imperative to achieve a full genome analysis. 
 <h2><b>Dependencies</b></h2>
 <b>sPARTA</b> requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
 </body>
