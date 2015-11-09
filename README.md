@@ -91,12 +91,22 @@ mapping</td></tr>
 <h2><b>Genome and Annotation Data</b></h2>
 Both the GFF3 file and corresponding genome FASTA file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
-</body>
-</html>
 
-```
-python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate</li><br>
-```
+<h2><b>Examples</b></h2>
+</html>
+</body>
+
+1. Execution on new genome/entirely new dataset<br>
+This execution should be performed any time a new genome file (along with corresponding GFF file) is being analyzed:<br>
+`
+python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
+`
+OR
+
+a user provided feature set (FASTA file with sequences of interest) is being analyzed:
+`
+python3 sPARTA.py -featureFile -genomeFeature <0/1> -miRNAFile -libs -tarPred -tarScore --tag2FASTA --map2DD --validate
+`
 <li>Execution on genome in which genome has already been processed<br>
 This execution should be performed if a genome file has been processed previously but the miRNAs for which targets need to be predicted are new:<br>
 <br>
