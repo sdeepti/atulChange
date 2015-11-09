@@ -39,7 +39,7 @@ once this has been completed, provided the miRNAs and genome are the same,
 the entire analysis will not need to be repeated. Examples of such cases
 may be seen below.</p>
 <h2><b>Arguments</b></h2><br>
-<table border="0" class="nothing">
+<table border="0" >
 <tr>
 <td>-gffFile</td>        
 <td>GFF3 file for the species being analyzed corresponding  to the genome assembly being used. Recommended file
@@ -91,7 +91,7 @@ mapping</td></tr>
 </table>
 <br>
 <h2><b>Genome and Annotation Data</b></h2>
-Both the GFF3 file and corresponding genome FASTA file can be downloaded from
+Both the </body></html>`GFF3` file and corresponding genome `FASTA` <html><body>file can be downloaded from
 Phytozome [http://www.phytozome.net/]<br>
 
 <h2><b>Examples</b></h2>
@@ -167,12 +167,11 @@ python3 sPARTA.py -featureFile <featureFile.fa> -genomeFeature <0/1> -miRNAFile 
 <body>
 <h2><b>Output</b></h2>
 <ol>
-<li><p>PARE validation results for each library can be found in 'output' folder<br>
-    under its corresponding library name. The 'output' folder also contains a combined result file (AllLibValidatedUniq.csv) from all the libraries.<br>
-    Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.</p></li>
-<li><p>Target prediction results can be found in 'predicted' folder under the name<br>
-`All.targs.parsed.csv`</p></li>
-</ol>
+<li><p>PARE validation results for each library can be found in output folder<br>
+    under its corresponding library name.</li></body></html> The output folder also contains a combined result file (`AllLibValidatedUniq.csv`) from all the libraries.<html><body><br>
+    Results from all libs were combined by removing redundant miRNA-target interaction with cleavage at same site.</p>
+<li><p>Target prediction results can be found in 'predicted' folder under the name<br></p></li></ol>
+`All.targs.parsed.csv`
 
 <h2><b>Contact</b></h2>
 Atul Kakrana<br>
