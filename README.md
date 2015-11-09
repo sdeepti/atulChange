@@ -10,15 +10,17 @@ sPARTA begins with a built-in parallelized target prediction module for plant
 miRNAs called 'miRferno'. sPARTA as a whole utilizes multi-core servers to
 achieve two-dimensional parallelization in order to maintain a low memory
 footprint, imperative to achieve a full genome analysis. </p>
-<h2><b>Dependencies</b></h2><br>
+<h2><b>Dependencies</b></h2>
 <b>sPARTA</b> requires bowtie2 in the PATH variable of the user account executing sPARTA<br>
-bowtie2 may be downloaded here http://bowtie-bio.sourceforge.net/bowtie2/index.shtml<br>
+</body>
+</html>
+`bowtie2` <html><body>may be downloaded here http://bowtie-bio.sourceforge.net/bowtie2/index.shtml<br>
 
-sPARTA requires the following python3 functions to perform properly:<br>
-numpy - http://www.numpy.org/<br>
-pyfasta - https://pypi.python.org/pypi/pyfasta/<br>
-rpy2 - http://rpy.sourceforge.net/<br>
-scipy - http://www.scipy.org/<br>
+sPARTA requires the following python3 functions to perform properly:<br></body></html>
+`numpy` - <html><body>http://www.numpy.org/<br></body></html>
+`pyfasta` - <html><body>https://pypi.python.org/pypi/pyfasta/<br></body></html>
+`rpy2` - <html><body>http://rpy.sourceforge.net/<br></body></html>
+`scipy` - <html><body>http://www.scipy.org/<br></body></html>
 <br>
 These may easily be installed using (Python) PIP. Intructions to install PIP - https://pip.pypa.io/en/stable/installing.html<br>
 <h2><b>Note</b></h2>
