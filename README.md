@@ -147,6 +147,10 @@ Results from all libs were combined by removing redundant miRNA-target interacti
 `All.targs.parsed.csv`
 <html>
 <body>
+<h2>Publications</h2>
+Kakrana, A., Hammond, R., Patel, P., Nakano, M. & Meyers, B. C. sPARTA: a parallelized pipeline for integrated analysis of plant miRNA and cleaved mRNA data sets, including new miRNA target-identification software. Nucleic Acids Res. gku693– (2014).<br><br> doi:10.1093/nar/gku693 [Link]
+
+Arikit, S., Xia, R., Kakrana, A., Huang, K., Zhai, J., Yan, Z., … Meyers, B. C. (2014). An Atlas of Soybean Small RNAs Identifies Phased siRNAs from Hundreds of Coding Genes. The Plant Cell. http://doi.org/10.1105/tpc.114.131847 [Link]
 <h2><b>Contact</b></h2>
 Atul Kakrana<br>
 kakrana@udel.edu<br>
