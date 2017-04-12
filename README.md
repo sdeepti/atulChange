@@ -102,7 +102,8 @@ Phytozome [http://www.phytozome.net/]<br>
 </body>
 </html>
 1.Execution on new genome/entirely new dataset
-This execution should be performed any time a new genome file (along with corresponding `GFF` file) is being analyzed:
+This execution should be performed any time a new genome file (along with corresponding `GFF` file) is being analyzed:    
+
 ```
 python3 sPARTA.py -genomeFile <genomeFile.fa> -gffFile <GFF3file> -genomeFeature <0/1> -miRNAFile <miRNAFile.fa> -libs <Lib_A.txt Lib_B.txt> -tarPred -tarScore --tag2FASTA --map2DD --validate
 ```
